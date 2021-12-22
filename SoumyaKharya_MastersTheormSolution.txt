@@ -1,0 +1,15 @@
+1)T (n) = 3T (n/2) + n 
+Solution=⇒ T (n) = Θ(nlog 3) (Case 1)
+
+
+2)T (n) = 64T (n/8) − n^2 log n 
+Solution=⇒ Does not apply (f(n) is not positive)
+
+3)T (n) = 2nT (n/2) + n^n 
+Solution=⇒ Does not apply (a is not constant
+
+4)T (n) = 3T (n/3) + n/2 =⇒ 
+Solution==>T (n) = Θ(n log n) (Case 2)
+
+5)T (n) = 7T (n/3) + n^2
+Solution =⇒ T (n) = Θ(n^2) (Case 3)
